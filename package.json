@@ -1,0 +1,23 @@
+{
+  "name": "rba-discord-bot",
+  "version": "1.0.0",
+  "description": "A robust Discord bot architected primarily in TypeScript and tailored exclusively to meet the operational needs of RBA.",
+  "author": "blackouty",
+  "type": "module",
+  "main": "index.js",
+  "imports": {
+    "#env": "./env.ts"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "discord.js": "^14.27.0",
+    "dotenv": "^18.0.4",
+    "typescript": "^7.0.2",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "tsx": "^4.23.15"
+  }
+}
